@@ -1,0 +1,6 @@
+.git/*
+.idea/*
+.env
+db.sqlite3
+.vscode
+.coverage

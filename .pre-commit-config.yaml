@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-flake8
+    rev: v4.4.0
+    hooks:
+      - id: flake8
+        name: flake8
+        language: python
+        entry: flake8
+        types: [python]

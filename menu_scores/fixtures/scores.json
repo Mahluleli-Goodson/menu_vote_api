@@ -1,0 +1,32 @@
+[
+{
+  "model": "menu_scores.menuscore",
+  "pk": 1,
+  "fields": {
+    "uuid": "55fcfe532d",
+    "label": "love it (1)",
+    "created_at": "2023-05-21T16:24:07.632Z",
+    "updated_at": "2023-05-21T16:24:07.632Z"
+  }
+},
+{
+  "model": "menu_scores.menuscore",
+  "pk": 2,
+  "fields": {
+    "uuid": "1c6cdc6c50",
+    "label": "ok (2)",
+    "created_at": "2023-05-21T16:24:41.358Z",
+    "updated_at": "2023-05-21T16:24:43.032Z"
+  }
+},
+{
+  "model": "menu_scores.menuscore",
+  "pk": 3,
+  "fields": {
+    "uuid": "8b9cdb6c5f",
+    "label": "least liked (3)",
+    "created_at": "2023-05-21T16:25:11.414Z",
+    "updated_at": "2023-05-21T16:25:11.414Z"
+  }
+}
+]
