@@ -1,4 +1,3 @@
-python manage.py loaddata data.json
 
 ## Restaurant Menu Voting API
 
