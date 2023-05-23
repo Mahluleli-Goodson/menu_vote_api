@@ -48,7 +48,16 @@ Additionally, the API includes an admin panel that is exclusively accessible to 
 
 
 3. Docker:
-   - TBD
+   - This Project is dockerized, incase you prefer it over direct machine setup.
+   - Run the following command to build the Docker image: 
+   - ```js
+        docker build -t <your_project_name> .
+     ```
+   - Once the Docker image is built, you can run it as a container:
+   - ```js
+        docker run -p 8000:8000 <your_project_name>
+     ```
+   - The container will start, and your app will be accessible on `http://127.0.0.1:8000/api`.
 
 ## API Reference
 The API is organized around `REST`. Our API has predictable resource-oriented URLs, accepts json-encoded request payload, returns JSON-encoded responses, and uses standard HTTP response `codes`, `authentication`, and `verbs`.
